@@ -28,7 +28,7 @@ if uploaded_file is not None:
 
     # Preprocess the image
     img_resized = image.resize((150, 150))
-    img_array = tf.keras.utils.img_to_array(img_resized)
+    img_array = tensorflow.keras.utils.img_to_array(img_resized)
     img_array = img_array / 255.0
     img_array = np.expand_dims(img_array, axis=0)
 
