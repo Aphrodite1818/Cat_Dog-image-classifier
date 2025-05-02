@@ -1,7 +1,7 @@
 import os
 os.system("pip list > packages.txt")
 import streamlit as st
-import tensorflow
+from tensorflow import tensorflow
 import numpy as np
 from PIL import Image
 
